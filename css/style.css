@@ -282,7 +282,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/home-bg.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -501,7 +501,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: rgba(66, 91, 181, 0.8);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -580,8 +580,8 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .portfolio-padding {
@@ -617,7 +617,16 @@ a.active {
     right: 14px;
 }
 
-.animatedModal-on .close-popup-modal {
+
+/* Add Portfolio CSS*/
+.D01-on .D02-on .D03-on .D04-on .D05-on .D06-on .D07-on .D08-on .D09-on .D10-on {
+    opacity: 1;
+}
+.D11-on .D12-on .D13-on .D14-on .D15-on .D16-on .D17-on .D18-on .D19-on .D20-on {
+    opacity: 1;
+} 
+
+.close-popup-modal {
     opacity: 1;
 }
 
