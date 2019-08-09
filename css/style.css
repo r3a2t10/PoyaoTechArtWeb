@@ -323,6 +323,7 @@ a.active {
 
 #about {
     padding: 100px 0;
+    background: #f3f3f3
 }
 
 .about-img-div img {
@@ -344,7 +345,6 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
 }
 
 .experience-row {
